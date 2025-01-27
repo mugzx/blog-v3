@@ -65,3 +65,7 @@ https://blog.mugzx.top
 ## 许可证
 
 [MIT](LICENSE)
+
+## 部署记录
+
+博客部署从[第9次]((https://github.com/mugzx/blog-v3/deployments)开始正式算入更新日志
