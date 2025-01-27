@@ -68,4 +68,4 @@ https://blog.mugzx.top
 
 ## 部署记录
 
-博客部署从[第10次](https://github.com/mugzx/blog-v3/deployments)开始正式算入更新日志
+博客部署从[第12次](https://github.com/mugzx/blog-v3/deployments)开始正式算入更新日志
