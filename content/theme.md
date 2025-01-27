@@ -56,25 +56,6 @@ style: { background: var(--c-primary-soft) }
 - **评论系统**：集成 Twikoo 评论系统，方便用户留言和互动。
 ::
 
-## 开源衍生
-
-- 灵感源自 [xaoxuu/hexo-theme-stellar](https://github.com/xaoxuu/hexo-theme-stellar)，这是一个经过精致设计的简洁 Hexo 主题。
-- 为 :tip[许多项目]{tip="真的有不少！"} 提供样式灵感。
-
-### 部署
-
-自用项目，目前已经开源。修改需要具备一定的前端开发知识，可阅读项目的 `README.md` 文件。
-
-## 开发过程
-
-::link-banner
----
-banner: https://7.isyangs.cn/24/66d4c3ea35003-24.jpg
-title: 博客进化：从 Hexo 到 Nuxt Content
-link: /2024/blog-using-nuxt
----
-::
-
 ## 技术架构
 
 ::card-list

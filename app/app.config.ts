@@ -8,7 +8,7 @@ export default defineAppConfig({
     article: {
         categories: <{ [key: string]: { icon: string, color?: string } }>{
             经验分享: { icon: 'ph:mouse-bold', color: '#3af' },
-            生活: { icon: 'ph:shooting-star-bold', color: '#3ba' },
+            日常生活: { icon: 'ph:shooting-star-bold', color: '#3ba' },
             代码: { icon: 'ph:code-bold', color: '#77f' },
             未分类: { icon: 'ph:folder-dotted-bold' },
         },
@@ -18,50 +18,44 @@ export default defineAppConfig({
             updated: '更新日期',
             // title: '标题',
         },
-        // 需要同时修改上方分类图标对应的键名
-        uncategorizedLabel: '未分类',
     },
 
     content: {
         codeblockCollapsibleRows: 16,
-        excerpt: {
-            animation: true,
-            caret: '_',
-        },
     },
 
     footer: {
         copyright: `© ${new Date().getFullYear()} ${blogConfig.author.name}`,
         iconNav: <NavItem[]>[
             { icon: 'ph:house-bold', text: '个人主页', url: blogConfig.author.homepage },
-            { icon: 'ri:qq-line', text: '交流群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
-            { icon: 'ph:github-logo-bold', text: 'GitHub: L33Z22L11', url: 'https://github.com/L33Z22L11' },
+            { icon: 'ri:qq-line', text: '交流群: 938973313', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
+            { icon: 'ph:github-logo-bold', text: 'GitHub: Mugzx', url: 'https://github.com/mugzx' },
             { icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
-            { icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/go-by-clouds.html' },
+            { icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/plain.html' },
         ],
         nav: <Nav>[
             {
                 title: '探索',
                 items: [
                     { icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
-                    { icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/go-by-clouds.html' },
+                    { icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/plain.html' },
                     { icon: 'ph:flying-saucer-bold', text: '异次元旅行', url: 'https://travel.moe/go.html?travel=on' },
                 ],
             },
             {
                 title: '社交',
                 items: [
-                    { icon: 'ph:github-logo-bold', text: 'L33Z22L11', url: 'https://github.com/L33Z22L11' },
-                    { icon: 'ri:qq-line', text: '群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
+                    { icon: 'ph:github-logo-bold', text: 'Mugzx', url: 'https://github.com/mugzx' },
+                    { icon: 'ri:qq-line', text: '群: 938973313', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
                     { icon: 'ph:envelope-simple-bold', text: blogConfig.author.email, url: `mailto:${blogConfig.author.email}` },
                 ],
             },
             {
                 title: '信息',
                 items: [
-                    { icon: 'simple-icons:nuxtdotjs', text: 'Nuxt博客已开源', url: 'https://github.com/L33Z22L11/blog-v3' },
-                    { icon: 'ph:swatches-bold', text: '主题灵感源自Stellar', url: '/theme' },
-                    { icon: 'ph:certificate-bold', text: '萌ICP备20246888号', url: 'https://icp.gov.moe/?keyword=20246888' },
+                    { icon: 'simple-icons:nuxtdotjs', text: '博客开源自纸鹿大佬', url: 'https://github.com/L33Z22L11/blog-v3' },
+                    { icon: 'ph:swatches-bold', text: '博客主题相关介绍', url: '/theme' },
+                    { icon: 'ph:certificate-bold', text: '萌ICP备20259900号', url: 'https://icp.gov.moe/?keyword=20259900' },
                 ],
             },
         ],
@@ -69,10 +63,10 @@ export default defineAppConfig({
     },
 
     header: {
-        logo: 'https://weavatar.com/avatar/47c0f2e82b76d9b10eb3023df9e02e4e3fdbeaf5b74b842063f207971e7fbe7b?s=160',
+        logo: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&src_uin=www.jlwz.cn&s=0',
         text: true,
         subtitle: blogConfig.subtitle,
-        emojiTail: ['📄', '🦌', '🙌', '🐟', '🏖️'],
+        emojiTail: ['🌏', '🌊️', '🌍', '🦦', '🌎'],
     },
 
     pagination: {
@@ -100,7 +94,7 @@ export default defineAppConfig({
 
     stats: {
         /** 归档页面每年标题对应的年龄 */
-        birthYear: 2003,
+        birthYear: 2009,
         /** BlogStats 组件的预置文本 */
         wordCount: '约10万',
     },

@@ -1,29 +1,30 @@
+import { WidgetBlogLog } from '#components'
 import type { BundledLanguage, BundledTheme } from 'shiki'
 import type { FeedEntry } from '~/types/feed'
-import { zhCN } from 'date-fns/locale'
 
 // 存储 nuxt.config 和 app.config 共用的配置
 const blogConfig = {
-    title: '纸鹿摸鱼处',
-    subtitle: '纸鹿至麓不知路，支炉制露不止漉',
-    description: '纸鹿本鹿的个人博客，分享技术与生活。“折腾不止，摸鱼生活——摸门🙏🏻”。纸鹿是一名开源爱好者，结识了许多志同道合的朋友。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。',
+    title: '地球驿站',
+    subtitle: '希望,寄托在你们身上。',
+    description: '木姜丝的个人博客，目前分享马哲与生活。这个博客记录了他在生活和学习中的点滴经历。网站界面开源自纸鹿,简洁美观是该开源项目的特点之一，且为读者提供了卓越的阅读体验。',
     author: {
-        name: '纸鹿本鹿',
-        avatar: 'https://www.zhilu.cyou/api/avatar.png',
-        email: 'hi@zhilu.cyou',
-        homepage: 'https://www.zhilu.cyou/',
+        name: '木姜丝_Mugzx',
+        avatar: 'https://www.gstatic.com/android/keyboard/emojikitchen/20201001/u1f30d/u1f30d_u2601-ufe0f.png',
+        email: 'lunar@mugzx.top',
+        homepage: 'https://home.mugzx.top',
     },
     copyright: {
         abbr: 'CC BY-NC-SA 4.0',
         name: '署名-非商业性使用-相同方式共享 4.0 国际',
         url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans',
     },
-    favicon: 'https://www.zhilu.cyou/api/icon.png',
+    favicon: 'https://www.gstatic.com/android/keyboard/emojikitchen/20201001/u1f30d/u1f30d_u2601-ufe0f.png',
     language: 'zh-CN',
-    qqGroup: '169994096',
-    timeEstablished: '2019-07-19',
+    qqGroup: '938973313',
+    timeEstablished: '2025-01-24',
+    /** 时区，修改后还应修改 time.ts 中引入的时区包 */
     timezone: 'Asia/Shanghai',
-    url: 'https://blog.zhilu.cyou/',
+    url: 'https://blog.mugzx.top',
 
     feed: {
         limit: 50,
@@ -33,7 +34,7 @@ const blogConfig = {
 
     imageDomains: [
         // 自动启用本域名的 Nuxt Image
-        // 'www.zhilu.cyou',
+        // 'home.mugzx.top',
         // '7.isyangs.cn',
     ],
 
@@ -56,17 +57,15 @@ const blogConfig = {
 
     twikoo: {
         js: 'https://gcore.jsdelivr.net/npm/twikoo@1.6.40/dist/twikoo.all.min.js',
-        envId: 'https://twikoo.zhilu.cyou/',
-        preload: 'https://twikoo.zhilu.cyou/',
+        envId: 'https://twikoo.mugzx.top/',
+        preload: 'https://twikoo.mugzx.top/',
     },
 }
-
-export const dateLocale = zhCN
 
 // 用于生成 OPML 和友链页面配置
 export const myFeed = <FeedEntry>{
     author: blogConfig.author.name,
-    sitenick: '摸鱼处',
+    sitenick: '驿站',
     title: blogConfig.title,
     desc: blogConfig.subtitle || blogConfig.description,
     link: blogConfig.url,
@@ -75,7 +74,7 @@ export const myFeed = <FeedEntry>{
     avatar: blogConfig.author.avatar,
     archs: ['Nuxt', 'Vercel'],
     date: blogConfig.timeEstablished,
-    comment: '这是我自己',
+    comment: '记得常来呀',
 }
 
 export default blogConfig
