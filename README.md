@@ -1,4 +1,4 @@
-# 纸鹿摸鱼处
+# 地球驿站
 
 ![框架](https://img.shields.io/badge/框架-Nuxt-00DC82?logo=Nuxt.js)
 ![CMS](https://img.shields.io/badge/CMS-Nuxt%20Content-00DC82?logo=Nuxt.js)
@@ -7,17 +7,11 @@
 ![代码风格](https://img.shields.io/badge/代码风格-ESLint-4B32C3?logo=ESLint)
 ![代码风格](https://img.shields.io/badge/代码风格-Stylelint-263238?logo=Stylelint)
 
-我的第三代个人博客，于 2024 年 8 月 11 日上线。
+博客于 2025 年 1 月 24 日上线。
 
 ## 预览
 
-https://blog.zhilu.cyou
-
-## 特性
-
-> [!Tip]
->
-> 请阅读 [在线文档](https://blog.zhilu.cyou/theme) 或 [仓库源文件](/content/theme.md)。
+https://blog.mugzx.top
 
 ## 目录结构
 
@@ -67,39 +61,6 @@ https://blog.zhilu.cyou
 ├── redirects.ts # 旧站点重定向配置
 └── vercel.json # Vercel 配置
 ```
-
-## 快速开始
-
-### 安装依赖
-
-```sh
-pnpm i
-```
-
-### 运行开发环境
-
-```sh
-pnpm dev
-```
-
-### 构建生产环境
-
-```sh
-pnpm generate
-pnpm preview
-```
-
-### 部署
-
-推荐使用 Vercel 部署。本站具有良好的 SSG 支持，可使用 Nuxt 预设（SSR）部署。目前的部署预设：
-
-- Build command: `pnpm generate`
-- Output directory: `dist`
-- Install command: `pnpm i`
-
-## 贡献
-
-欢迎提交 Issue 或 Pull Request。
 
 ## 许可证
 
