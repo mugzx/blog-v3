@@ -11,7 +11,7 @@ const blogConfig = {
         name: '木姜丝_Mugzx',
         avatar: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&src_uin=www.jlwz.cn&s=0',
         email: 'lunar@mugzx.top',
-        homepage: 'https://home.mugzx.top',
+        homepage: 'https://mugzx.top',
     },
     copyright: {
         abbr: 'CC BY-NC-SA 4.0',
