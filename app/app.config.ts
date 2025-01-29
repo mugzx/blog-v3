@@ -7,9 +7,9 @@ export default defineAppConfig({
 
     article: {
         categories: <{ [key: string]: { icon: string, color?: string } }>{
-            经验分享: { icon: 'ph:mouse-bold', color: '#3af' },
+            观点解释: { icon: 'ph:mouse-bold', color: '#3af' },
             日常生活: { icon: 'ph:shooting-star-bold', color: '#3ba' },
-            代码: { icon: 'ph:code-bold', color: '#77f' },
+            代码编程: { icon: 'ph:code-bold', color: '#77f' },
             未分类: { icon: 'ph:folder-dotted-bold' },
         },
         defaultCategoryIcon: 'ph:folder-bold',

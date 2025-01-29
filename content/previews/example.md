@@ -8,7 +8,7 @@ updated: 2024-11-18 09:26:38
 
 Nuxt Content 使用 Markdown 语法和约定来提供丰富的文本编辑体验。它使用自定的 MDC 语法（[文档](https://content.nuxt.com/usage/markdown)），可以让你在 Markdown 中使用 Vue 组件，并支持多种 remark 扩展。
 
-也许要看到[本页源码](https://github.com/L33Z22L11/blog-v3/blob/main/content/previews/example.md)才能领会到这种语法的特性，[就像**这样**——]{.example-info #just-like-this style="color: #00bb66"}，或是主题介绍页面的组件入口卡片那样。
+也许要看到[本页源码](https://github.com/L33Z22L11/blog-v3/blob/main/content/previews/example.md)才能领会到这种语法的特性，[就像**这样**——]{.example-info #just-like-this style="color: #4242FF"}，或是主题介绍页面的组件入口卡片那样。
 
 ## 内容组件样式示例
 
