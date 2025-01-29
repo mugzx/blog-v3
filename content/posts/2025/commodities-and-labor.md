@@ -1,6 +1,6 @@
 ---
 title: 商品和劳动
-description: 新春快樂🎉!在这篇文章中,我将解释商品的性质与价值,以及劳动的概念,以及它们之间的关系。
+description: 新春快樂🎉!在这篇文章中,我将解释商品的性质与价值,劳动的概念,还有它们之间的关系。
 date: 2025-01-29 12:14:39
 updated: 2025-01-29 22:16:24
 image: https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/ocvi8ACXEZeDC0AK2f9LYICZzhAWNBULzAigAA~noop.jpeg?biz_tag=pcweb_cover&card_type=303&column_n=0&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&se=false&x-expires=1739365200&x-signature=%2F6Zac0Y0as5%2B30lGzGk6Ocmz4SQ%3D
