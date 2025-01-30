@@ -6,7 +6,7 @@ import { zhCN } from 'date-fns/locale'
 const blogConfig = {
     title: '地球驿站',
     subtitle: '希望,寄托在你们身上。',
-    description: '木姜丝的个人博客，目前分享马哲与生活。这个博客记录了他在生活和学习中的点滴经历。网站界面开源自纸鹿,简洁美观是该开源项目的特点之一，且为读者提供了卓越的阅读体验。',
+    description: '木姜丝的个人博客，目前分享马哲与生活。这个博客记录了他在生活和学习中的点滴经历。网站界面开源自纸鹿,简洁美观是该开源项目的特点之一，且为读者提供了卓越的阅读体验。feedId:107805652515466240+userId:107805269913881600',
     author: {
         name: '木姜丝_Mugzx',
         avatar: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&src_uin=www.jlwz.cn&s=0',
