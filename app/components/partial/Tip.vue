@@ -5,7 +5,6 @@ withDefaults(defineProps<{
     wrap?: boolean
     hoverable?: boolean
 }>(), {
-    delay: 0,
     delay: 100,
 })
 </script>

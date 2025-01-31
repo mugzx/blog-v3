@@ -28,7 +28,7 @@ export default defineAppConfig({
         copyright: `© ${new Date().getFullYear()} ${blogConfig.author.name}`,
         iconNav: <NavItem[]>[
             { icon: 'ph:house-bold', text: '个人主页', url: blogConfig.author.homepage },
-            { icon: 'ri:qq-line', text: '交流群: 938973313', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
+            { icon: 'ri:qq-line', text: 'MC交流电台', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
             { icon: 'ph:github-logo-bold', text: 'GitHub: Mugzx', url: 'https://github.com/mugzx' },
             { icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
             { icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/plain.html' },
@@ -46,7 +46,7 @@ export default defineAppConfig({
                 title: '社交',
                 items: [
                     { icon: 'ph:github-logo-bold', text: 'Mugzx', url: 'https://github.com/mugzx' },
-                    { icon: 'ri:qq-line', text: '群: 938973313', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
+                    { icon: 'ri:qq-line', text: 'MC交流电台', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
                     { icon: 'ph:envelope-simple-bold', text: blogConfig.author.email, url: `mailto:${blogConfig.author.email}` },
                 ],
             },
