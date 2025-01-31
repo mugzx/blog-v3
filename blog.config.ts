@@ -6,7 +6,7 @@ import { zhCN } from 'date-fns/locale'
 const blogConfig = {
     title: '地球驿站',
     subtitle: '希望,寄托在你们身上。',
-    description: '这里是 Mugzx 的个人博客,名为地球驿站,平时会记录我对生活日常的一些观点看法,偶尔会回归正业写一点技术型文章💦,欢迎大家多多前来访问!',
+    description: '这里是 Mugzx 的个人博客,名为地球驿站,平时会记录我对日常生活的一些观点看法,偶尔也会回归正业写一点技术型文章💦,欢迎大家多多前来访问!',
     author: {
         name: 'Mugzx',
         avatar: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&src_uin=www.jlwz.cn&s=0',
