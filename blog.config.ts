@@ -18,7 +18,7 @@ const blogConfig = {
         name: '署名-非商业性使用-相同方式共享 4.0 国际',
         url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans',
     },
-    favicon: 'https://www.gstatic.com/android/keyboard/emojikitchen/20201001/u1f30d/u1f30d_u2601-ufe0f.png',
+    favicon: 'https://mugzx.top/_vercel/image?url=%2Ficon.png&w=1536&q=100',
     language: 'zh-CN',
     qqGroup: '938973313',
     timeEstablished: '2025-01-24',
