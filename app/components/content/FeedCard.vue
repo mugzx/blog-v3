@@ -8,7 +8,7 @@ const domainIcon = computed(() => getDomainIcon(props.link))
 
 <template>
     <HoverCardRoot>
-        <HoverCardTrigger class="feed-card gradient-card" :href="link">
+        <HoverCardTrigger class="feed-card gradient-card" :href="error ? undefined : link" :data-error="error">
             <div class="avatar">
                 <NuxtImg :src="avatar ?? icon" :alt="author" loading="lazy" :title="feed ? undefined : '无订阅源'" />
                 <Icon v-if="!feed" class="no-feed" name="ph:bell-simple-slash-bold" />
