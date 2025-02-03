@@ -64,7 +64,8 @@ export default defineAppConfig({
 
     header: {
         logo: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&src_uin=www.jlwz.cn&s=0',
-        text: true,
+        /** 展示标题，否则展示纯 Logo */
+        showTitle: true,
         subtitle: blogConfig.subtitle,
         emojiTail: ['🌏', '🌊️', '🌍', '🦦', '🌎'],
     },

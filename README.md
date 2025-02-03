@@ -9,9 +9,13 @@
 
 博客于 2025 年 1 月 24 日上线。
 
-## 预览
+## 使用本主题的博客
 
-https://blog.mugzx.top
+- [纸鹿摸鱼处 @L33Z22L11](https://blog.zhilu.cyou/) · [开发经历](https://blog.zhilu.cyou/2024/blog-using-nuxt)
+- [希乐博客 @Xlenco](https://blog.xlenco.top)
+- [SteinsNote @Labmem-00](https://blog.labmem.chat/) · [迁移经历](https://blog.labmem.chat/2024/beforeeverything)
+- [月空人 @Whbbit1999](https://whbbit.cn/) · [迁移评价](https://whbbit.cn/2025/why-migrate-to-nuxt)
+- [地球驿站 @mugzx](https://blog.mugzx.top/)
 
 ## 目录结构
 
