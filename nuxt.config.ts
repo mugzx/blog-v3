@@ -22,7 +22,7 @@ export default defineNuxtConfig({
             ],
             meta: [
                 { name: 'author', content: `${blogConfig.author.name} <${blogConfig.author.email}>` },
-                { 'name': 'generator', 'data-github-repo': 'https://github.com/mugzx/blog-v3' },
+                { 'name': 'generator', 'data-github-repo': 'https://github.com/L33Z22L11/blog-v3' },
             ],
             templateParams: {
                 separator: '|',
