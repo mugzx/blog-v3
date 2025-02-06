@@ -89,7 +89,7 @@ export default defineAppConfig({
     ],
 
     seasonal: {
-        widgetBackground: 'https://wsrv.nl/?url=i2.hdslb.com/bfs/archive/46165212e09842103752c453d7987a470059760b.jpg@320w',
+        widgetBackground: 'https://mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif',
         emoji: '🧧',
     },
 

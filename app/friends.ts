@@ -13,7 +13,7 @@ export default <FeedGroup[]>[{
         avatar: 'https://linexic.top/avatar.webp',
         archs: ['Hexo', 'Vercel'],
         date: '2025-01-24',
-        comment: '技术分享，高中生活',
+        comment: '技术分享，高中生活，赛博神医',
     },],
     },{
     name: '网上邻居',
@@ -27,7 +27,7 @@ export default <FeedGroup[]>[{
         avatar: 'https://s21.ax1x.com/2025/01/24/pEEM9Rs.png',
         archs: ['Typecho', '服务器'],
         date: '2025-01-24',
-        comment: '生活随笔',
+        comment: '生活随笔，内有暴食海獭!',
     },{
         author: 'MeowcoQAQ',
         desc: '还是音 MIDI 大佬',
@@ -37,6 +37,6 @@ export default <FeedGroup[]>[{
         avatar: 'https://sc.midishow.net/source/avatar/91/914504.jpg',
         archs: ['WordPress', '服务器'],
         date: '2025-01-24',
-        comment: '技术教程和分享的感受',
+        comment: '分享内容与琐事，喵喵喵喵喵喵~',
     },],
 }]

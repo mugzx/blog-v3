@@ -25,7 +25,7 @@ const { category, categories, listCategorized } = useCategory(listSorted)
             <h1>
                 <ZRawLink class="mobile-only" to="/">
                     <Icon name="ph:caret-left-bold" />
-                </ZRawLink>暂存货物处
+                </ZRawLink>暂存
             </h1>
             <ZOrderToggle
                 v-model:is-ascending="isAscending"

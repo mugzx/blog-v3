@@ -33,7 +33,7 @@ const appConfig = useAppConfig()
         opacity: 0.2;
         inset: 0;
         background: center / cover;
-        background-image: var(--seasonal-bg, "https://wsrv.nl/?url=i0.hdslb.com/bfs/archive/abf1bb4412360550a18e5f2e71b1227e7d949735.png@320w");
+        background-image: var(--seasonal-bg, "https://mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif");
         z-index: -1;
     }
 }
