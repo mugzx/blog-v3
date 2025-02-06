@@ -27,11 +27,11 @@ const { data: postLink } = await useAsyncData('/link', () => queryContent('/link
 <template>
     <header class="link-reminder">
         <div class="content">
-            <p><Icon name="ph:newspaper-clipping-bold" /> 我会通过订阅源阅读友链文章。</p>
+            <p><Icon name="ph:newspaper-clipping-bold" /> 我会通过订阅源阅读电友们的文章。</p>
             <p>
                 欢迎加入交流电台 <Tip copy>
                     {{ appConfig.qqGroup }}
-                </Tip> 闲聊或技术交流。
+                </Tip> 进行交流。
             </p>
             <p>
                 我制作了本站的

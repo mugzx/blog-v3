@@ -45,7 +45,7 @@ export default defineAppConfig({
             {
                 title: '社交',
                 items: [
-                    { icon: 'ph:github-logo-bold', text: 'Mugzx', url: 'https://github.com/mugzx' },
+                    { icon: 'ph:github-logo-bold', text: 'GitHub: Mugzx', url: 'https://github.com/mugzx' },
                     { icon: 'ri:qq-line', text: 'MC交流电台', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
                     { icon: 'ph:envelope-simple-bold', text: blogConfig.author.email, url: `mailto:${blogConfig.author.email}` },
                 ],
@@ -67,7 +67,7 @@ export default defineAppConfig({
         /** 展示标题，否则展示纯 Logo */
         showTitle: true,
         subtitle: blogConfig.subtitle,
-        emojiTail: ['🌏', '🌊️', '🌍', '🦦', '🌎'],
+        emojiTail: ['🌙', '🌱', '💤', '✨', '🌏'],
     },
 
     pagination: {
@@ -81,9 +81,9 @@ export default defineAppConfig({
         {
             title: '',
             items: [
-                { icon: 'ph:files-bold', text: '文章', url: '/' },
-                { icon: 'ph:link-bold', text: '友链', url: '/link' },
-                { icon: 'ph:archive-bold', text: '归档', url: '/archive' },
+                { icon: 'ph:files-bold', text: '驻站笔记', url: '/' },
+                { icon: 'ph:link-bold', text: '站友电台', url: '/link' },
+                { icon: 'ph:archive-bold', text: '驿站仓库', url: '/archive' },
             ],
         },
     ],

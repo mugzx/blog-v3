@@ -34,7 +34,7 @@ const blogConfig = {
     imageDomains: [
         // 自动启用本域名的 Nuxt Image
         // 'home.mugzx.top',
-        // '7.isyangs.cn',
+        // 'mugzx.s3.bitiful.net',
     ],
 
     robotsNotIndex: ['/preview', '/previews/*'],

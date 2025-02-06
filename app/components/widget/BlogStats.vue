@@ -36,7 +36,7 @@ onMounted(async () => {
 
 <template>
     <h3 class="widget-title">
-        博客统计
+        驿站统计
     </h3>
 
     <ul class="widget-card" data-allow-mismatch>

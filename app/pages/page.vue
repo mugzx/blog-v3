@@ -48,7 +48,7 @@ const listRecommended = computed(() => sort(
                 <!-- 外层元素用于占位 -->
                 <ZRawLink to="/preview" class="preview-entrance">
                     <Icon name="ph:file-lock-bold" />
-                    查看预览文章
+                    暂存货物处
                 </ZRawLink>
             </div>
             <ZOrderToggle

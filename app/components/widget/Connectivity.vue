@@ -4,7 +4,7 @@ const appConfig = useAppConfig()
 
 <template>
     <h3 class="widget-title">
-        可访问性
+        驿站公告
     </h3>
     <div
         class="widget-card seasonal"
@@ -14,7 +14,10 @@ const appConfig = useAppConfig()
         }"
     >
         <!-- TODO: 优化技术架构展示 -->
-        <p>域名购买自2024年3月,续费至2026年，托管于 Vercel；博客由 Nuxt Content 驱动，懒得使用图床。</p>
+        <p>[驿站域名] 2024~2026
+        <br>[托管平台] Vercel
+        <br>[博客驱动] Nuxt Content
+        <br>[图床存储] 缤纷云</p>
     </div>
 </template>
 

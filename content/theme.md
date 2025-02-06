@@ -39,7 +39,7 @@ github:
 ::link-card
 ---
 title: 组件样式示例
-link: /previews/example
+link: https://blog.zhilu.cyou/previews/example
 style: { background: var(--c-primary-soft) }
 ---
 #icon
