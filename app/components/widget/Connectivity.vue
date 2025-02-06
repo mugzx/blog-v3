@@ -14,10 +14,11 @@ const appConfig = useAppConfig()
         }"
     >
         <!-- TODO: 优化技术架构展示 -->
-        <p>[驿站域名] 2024~2026
+        <p>[驿站域名] 2024~2026年
         <br>[托管平台] Vercel
         <br>[博客驱动] Nuxt Content
-        <br>[图床存储] 缤纷云</p>
+        <br>[图床存储] 缤纷云-bitiful
+        <br>PS: <mark>图片采用avif格式进行压缩和优化, 字体则进行子集化处理</mark></p>
     </div>
 </template>
 
@@ -33,7 +34,7 @@ const appConfig = useAppConfig()
         opacity: 0.2;
         inset: 0;
         background: center / cover;
-        background-image: var(--seasonal-bg, "https://mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif");
+        background-image: var(--seasonal-bg, "https://wsrv.nl/?url=mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif");
         z-index: -1;
     }
 }

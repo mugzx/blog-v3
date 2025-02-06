@@ -7,7 +7,7 @@ export default defineAppConfig({
 
     article: {
         categories: <{ [key: string]: { icon: string, color?: string } }>{
-            观点解释: { icon: 'ph:mouse-bold', color: '#3af' },
+            观点分享: { icon: 'ph:mouse-bold', color: '#3af' },
             日常生活: { icon: 'ph:shooting-star-bold', color: '#3ba' },
             代码编程: { icon: 'ph:code-bold', color: '#77f' },
             未分类: { icon: 'ph:folder-dotted-bold' },
@@ -89,7 +89,7 @@ export default defineAppConfig({
     ],
 
     seasonal: {
-        widgetBackground: 'https://mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif',
+        widgetBackground: 'https://wsrv.nl/?url=mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif',
         emoji: '🧧',
     },
 
