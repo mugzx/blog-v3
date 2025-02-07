@@ -3,7 +3,7 @@ title: Hello,World!
 description: 随着设备的更新和小钱钱的不断减少,开始第一次正式使用静态博客，记录自己的生活和学习。
 date: 2025-01-24 14:34:26
 updated: 2025-01-25 02:59:54
-categories: [日常生活]
+categories: [生活随笔]
 tags: [静态博客, 生活, 学习]
 ---
 

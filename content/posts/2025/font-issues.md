@@ -4,7 +4,7 @@ description: 字体子集化处理,节省不必要的加载时间(↓1145秒),�
 date: 2025-02-06 22:13:42
 updated: 2025-02-06 22:13:43
 image: https://mumu.s3.bitiful.net/202502%2F9ee74884e4f7bb71affa9d92c15eeed7.avif
-categories: [日常生活]
+categories: [生活随笔]
 tags: [字体]
 ---
 

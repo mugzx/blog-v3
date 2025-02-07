@@ -38,5 +38,15 @@ export default <FeedGroup[]>[{
         archs: ['WordPress', '服务器'],
         date: '2025-01-24',
         comment: '分享内容与琐事，喵喵喵喵喵喵~',
+    },{
+        author: 'Steven的博客',
+        desc: '没有既定的终点，只有无限的探索',
+        link: 'https://blog.stevenw.cc',
+        feed: 'https://blog.stevenw.cc/sitemap.xml',
+        icon: 'https://blog.stevenw.cc/upload/logo.png',
+        avatar: 'https://blog.stevenw.cc/upload/logo.png',
+        archs: ['Halo', '服务器'],
+        date: '2025-02-07',
+        comment: 'MC同好',
     },],
 }]
