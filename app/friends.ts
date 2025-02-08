@@ -6,6 +6,8 @@ export default <FeedGroup[]>[{
     desc: '',
     entries: [{
         author: 'LineXic',
+        sitenick: '书屋',
+        title: 'LineXic书屋',
         desc: '念念不忘，必有回响',
         link: 'https://linexic.top',
         feed: 'https://linexic.top/atom.xml',
@@ -20,6 +22,7 @@ export default <FeedGroup[]>[{
     desc: '哔——啵——电波通讯中，欢迎常来串门。',
     entries: [{
         author: '枫落丰源',
+        title: '枫落丰源\'s Blog',
         desc: '只要开始追赶，就已经走在胜利的路上',
         link: 'https://feng1026.top',
         feed: 'https://feng1026.top/feed',
@@ -30,6 +33,7 @@ export default <FeedGroup[]>[{
         comment: '生活随笔，内有暴食海獭!',
     },{
         author: 'MeowcoQAQ',
+        title: 'MeowcoQAQ\'s Blog',
         desc: '还是音 MIDI 大佬',
         link: 'https://blog.mcneko.com',
         feed: 'https://blog.mcneko.com/feed',
@@ -40,6 +44,7 @@ export default <FeedGroup[]>[{
         comment: '分享内容与琐事，喵喵喵喵喵喵~',
     },{
         author: 'Steven',
+        title: 'Steven\'s Blog',
         desc: '没有既定的终点，只有无限的探索',
         link: 'https://blog.stevenw.cc',
         feed: 'https://blog.stevenw.cc/sitemap.xml',
