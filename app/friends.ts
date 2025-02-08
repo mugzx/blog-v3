@@ -21,8 +21,8 @@ export default <FeedGroup[]>[{
     entries: [{
         author: '枫落丰源',
         desc: '只要开始追赶，就已经走在胜利的路上',
-        link: 'https://feng1026.fun',
-        feed: 'https://feng1026.fun/feed',
+        link: 'https://feng1026.top',
+        feed: 'https://feng1026.top/feed',
         icon: 'https://s21.ax1x.com/2024/10/19/pAaAoIx.png',
         avatar: 'https://s21.ax1x.com/2025/01/24/pEEM9Rs.png',
         archs: ['Typecho', '服务器'],
@@ -39,7 +39,7 @@ export default <FeedGroup[]>[{
         date: '2025-01-24',
         comment: '分享内容与琐事，喵喵喵喵喵喵~',
     },{
-        author: 'Steven的博客',
+        author: 'Steven',
         desc: '没有既定的终点，只有无限的探索',
         link: 'https://blog.stevenw.cc',
         feed: 'https://blog.stevenw.cc/sitemap.xml',

@@ -5,7 +5,7 @@ export default <FeedGroup[]>[{
     name: '漫游',
     desc: '网上冲浪时发现的精彩内容与常读订阅，与君共享。',
     entries: [{
-        author: '纸鹿摸鱼处',
+        author: '纸鹿大佬',
         desc: '纸鹿至麓不知路，支炉制露不止漉',
         feed: 'https://blog.zhilu.cyou/atom.xml',
         link: 'https://blog.zhilu.cyou',
