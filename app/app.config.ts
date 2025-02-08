@@ -3,6 +3,7 @@ import type { Nav, NavItem } from '~/types/nav'
 import blogConfig from '~~/blog.config'
 
 export default defineAppConfig({
+    // 将 blog.config.ts 中的配置项复制到 appConfig
     ...blogConfig,
 
     article: {
@@ -89,7 +90,7 @@ export default defineAppConfig({
     ],
 
     seasonal: {
-        widgetBackground: 'https://wsrv.nl/?url=mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif',
+        widgetBackground: 'https://mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif',
         emoji: '🧧',
     },
 

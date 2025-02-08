@@ -24,11 +24,9 @@ const blogStats = computed(() => [{
 }])
 
 onMounted(async () => {
-    const { data: stats } = await useFetch('/api/stats')
-    if (!stats.value)
-        return
-    totalWords.value = formatNumber(stats.value.total.words)
-    yearlyTip.value = Object.entries(stats.value.annual).reverse().map(([year, item]) =>
+    const stats = await $fetch('/api/stats')
+    totalWords.value = formatNumber(stats.total.words)
+    yearlyTip.value = Object.entries(stats.annual).reverse().map(([year, item]) =>
         `${year}年：${item.posts}篇，${formatNumber(item.words)}字`,
     ).join('\n')
 })
