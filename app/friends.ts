@@ -27,8 +27,8 @@ export default <FeedGroup[]>[{
         link: 'https://feng1026.top',
         feed: 'https://feng1026.top/feed',
         icon: 'https://s21.ax1x.com/2024/10/19/pAaAoIx.png',
-        avatar: 'https://s21.ax1x.com/2025/01/24/pEEM9Rs.png',
-        archs: ['Typecho', '服务器'],
+        avatar: 'https://q1.qlogo.cn/g?b=qq&nk=435900598&src_uin=www.jlwz.cn&s=0',
+        archs: ['Typecho', '虚拟主机'],
         date: '2025-01-24',
         comment: '生活随笔，内有暴食海獭!',
     },{
