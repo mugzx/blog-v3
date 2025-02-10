@@ -41,7 +41,7 @@ const blogConfig = {
 
     scripts: [
         // umami 统计服务
-        { 'src': 'https://u.linexic.top/script.js', 'data-website-id': '9e529a32-b09e-430f-82eb-9e8536f5d7de', 'defer': true },
+        { 'src': 'https://umami.mugzx.top/script.js', 'data-website-id': '67b04aa0-edac-456d-bbe1-7ddd2bff9008', 'defer': true },
         // Cloudflare Insights 统计服务
         { 'src': 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "d5877d013fc345b2879dbd36b2d3f1db"}', 'defer': true },
     ],
