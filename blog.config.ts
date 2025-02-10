@@ -33,7 +33,7 @@ const blogConfig = {
 
     imageDomains: [
         // 自动启用本域名的 Nuxt Image
-        // 'home.mugzx.top',
+        // 'mugzx.top',
         // 'mugzx.s3.bitiful.net',
     ],
 
@@ -57,7 +57,7 @@ const blogConfig = {
     },
 
     twikoo: {
-        js: 'https://gcore.jsdelivr.net/npm/twikoo@1.6.40/dist/twikoo.all.min.js',
+        js: 'https://gcore.jsdelivr.net/npm/twikoo@1.6.41/dist/twikoo.all.min.js',
         envId: 'https://twikoo.mugzx.top/',
         preload: 'https://twikoo.mugzx.top/',
     },
