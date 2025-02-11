@@ -90,7 +90,7 @@ export default defineAppConfig({
     ],
 
     seasonal: {
-        widgetBackground: 'https://mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif',
+        widgetBackground: 'https://mumu.s3.bitiful.net/2025/02/82102a3b8a103df3d48cc089c58b8fbe.avif',
         emoji: '🧧',
     },
 

@@ -3,7 +3,7 @@ title: 商品和劳动
 description: 在这篇文章中,我将阐述商品的性质与价值,劳动的概念,还有它们之间的关系。
 date: 2025-01-29 12:14:39
 updated: 2025-01-29 22:16:24
-image: https://mumu.s3.bitiful.net/202502%2F7b0620a6465b4a2c109745606ffc48bc.avif
+image: https://mumu.s3.bitiful.net/2025/02/7b0620a6465b4a2c109745606ffc48bc.avif
 categories: [观点分享]
 tags: [资本论]
 ---

@@ -34,7 +34,7 @@ const appConfig = useAppConfig()
         opacity: 0.2;
         inset: 0;
         background: center / cover;
-        background-image: var(--seasonal-bg, "https://wsrv.nl/?url=mumu.s3.bitiful.net/202502%2F82102a3b8a103df3d48cc089c58b8fbe.avif");
+        background-image: var(--seasonal-bg, "https://mumu.s3.bitiful.net/2025/02/82102a3b8a103df3d48cc089c58b8fbe.avif");
         z-index: -1;
     }
 }
