@@ -64,7 +64,7 @@ export default defineAppConfig({
     },
 
     header: {
-        logo: 'https://q1.qlogo.cn/g?b=qq&nk=2111829348&src_uin=www.jlwz.cn&s=0',
+        logo: 'https://www.mugzx.top/api/avatar.png',
         /** 展示标题，否则展示纯 Logo */
         showTitle: true,
         subtitle: blogConfig.subtitle,
