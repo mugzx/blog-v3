@@ -1,4 +1,4 @@
-import type { NitroConfig } from 'nitropack
+import type { NitroConfig } from 'nitropack'
 import type { BundledLanguage, BundledTheme } from 'shiki'
 import type { FeedEntry } from '~/types/feed'
 import redirectList from './redirects.json'
@@ -46,7 +46,7 @@ const blogConfig = {
     robotsNotIndex: ['/preview', '/previews/*'],
 
     scripts: [
-        // umami 统计服务
+        // 自己部署的 umami 统计服务
         { 'src': 'https://umami.mugzx.top/script.js', 'data-website-id': '67b04aa0-edac-456d-bbe1-7ddd2bff9008', 'defer': true },
         // Cloudflare Insights 统计服务
         { 'src': 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "d5877d013fc345b2879dbd36b2d3f1db"}', 'defer': true },
