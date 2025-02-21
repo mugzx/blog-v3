@@ -46,7 +46,7 @@ github:
 
 ## 使用
 
-自用项目，目前已经开源。修改需要具备一定的前端开发知识，请阅读 `README`。
+修改需要具备一定的前端开发知识，请阅读 `README`。
 
 ::link-card
 ---
@@ -93,7 +93,7 @@ link: https://blog.zhilu.cyou/2024/blog-using-nuxt
   - **域名解析**：parse-domain
   - **动态代码高亮**：Plain Shiki
   - **实用算法片段库**：Radash
-  - **无头组件库**：Radix Vue
+  - **悬浮组件库**：Vue Tippy
 - 依赖模块
   - **图标管理**：Nuxt Icon
   - **颜色模式**：Nuxt Color Mode
