@@ -1,11 +1,15 @@
+import type { NitroConfig } from 'nitropack
 import type { BundledLanguage, BundledTheme } from 'shiki'
 import type { FeedEntry } from '~/types/feed'
-import { zhCN } from 'date-fns/locale'
+import redirectList from './redirects.json'
+
+export { zhCN as dateLocale } from 'date-fns/locale/zh-CN'
 
 // 存储 nuxt.config 和 app.config 共用的配置
 const blogConfig = {
     title: '地球驿站',
     subtitle: '希望,寄托在你们身上。',
+    // 长 description 利好于 SEO
     description: '这里是 Mugzx 的个人博客,名为地球驿站,平时会记录我对日常生活的一些观点看法,偶尔也会回归正业写一点技术型文章💦,欢迎大家多多前来访问!',
     author: {
         name: 'Mugzx',
@@ -29,6 +33,7 @@ const blogConfig = {
         limit: 50,
     },
 
+    // 在 URL 中隐藏的路径前缀
     hideContentPrefixes: ['/posts'],
 
     imageDomains: [
@@ -37,6 +42,7 @@ const blogConfig = {
         // 'mugzx.s3.bitiful.net',
     ],
 
+    // 禁止搜索引擎收录的路径
     robotsNotIndex: ['/preview', '/previews/*'],
 
     scripts: [
@@ -56,14 +62,13 @@ const blogConfig = {
         darkTheme: <BundledTheme>'one-dark-pro',
     },
 
+    // 用于 Twikoo 评论系统
     twikoo: {
         js: 'https://gcore.jsdelivr.net/npm/twikoo@1.6.41/dist/twikoo.all.min.js',
         envId: 'https://twikoo.mugzx.top/',
         preload: 'https://twikoo.mugzx.top/',
     },
 }
-
-export const dateLocale = zhCN
 
 // 用于生成 OPML 和友链页面配置
 export const myFeed = <FeedEntry>{
@@ -78,6 +83,21 @@ export const myFeed = <FeedEntry>{
     archs: ['Nuxt', 'Vercel'],
     date: blogConfig.timeEstablished,
     comment: '记得常来呀',
+}
+
+// 将旧页面永久重定向到新页面
+const redirectRouteRules = Object.entries(redirectList)
+    .reduce<NitroConfig['routeRules']>((acc, [from, to]) => {
+        acc![from] = { redirect: { to, statusCode: 301 } }
+        return acc
+    }, {})
+
+// https://nitro.build/config#routerules
+export const routeRules = <NitroConfig['routeRules']>{
+    ...redirectRouteRules,
+    '/api/stats': { prerender: true, headers: { 'Content-Type': 'application/json' } },
+    '/atom.xml': { prerender: true, headers: { 'Content-Type': 'application/xml' } },
+    '/zhilu.opml': { prerender: true, headers: { 'Content-Type': 'application/xml' } },
 }
 
 export default blogConfig
