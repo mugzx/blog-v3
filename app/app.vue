@@ -1,45 +1,61 @@
-
-<html>
-  <head>
-    <meta content="origin" name="referrer">
-    <title>Rate limit &middot; GitHub</title>
-    <meta name="viewport" content="width=device-width">
-    <style type="text/css" media="screen">
-      body {
-        background-color: #f6f8fa;
-        color: rgba(0, 0, 0, 0.5);
-        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-        font-size: 14px;
-        line-height: 1.5;
-      }
-      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
-      a { text-decoration: none; }
-      a:hover { text-decoration: underline; }
-      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
-      p { margin: 20px 0 40px; }
-      #s { margin-top: 35px; }
-      #s a {
-        color: #666666;
-        font-weight: 200;
-        font-size: 14px;
-        margin: 0 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="c">
-      <h1>Access has been restricted</h1>
-      <p>You have triggered a rate limit.<br><br>
-         Please wait a few minutes before you try again;<br>
-         in some cases this may take up to an hour.
-      </p>
-      <div id="s">
-        <a href="https://support.github.com">Contact Support</a> &mdash;
-        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
-        <a href="https://twitter.com/githubstatus">@githubstatus</a>
-      </div>
+<template>
+    <NuxtLoadingIndicator />
+    <SkipToContent />
+    <ZSidebar />
+    <div id="content">
+        <main id="main-content">
+            <NuxtPage />
+            <ZFooter />
+        </main>
+        <ZAside />
     </div>
-  </body>
-</html>
+    <ZPanel />
+    <ZPopover />
+</template>
 
+<!-- eslint-disable-next-line vue/enforce-style-attribute -->
+<style lang="scss">
+// Nuxt 根元素 id
+#z-root {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    min-width: 0;
+}
 
+// 合并处理 #z-sidebar, #z-aside
+aside {
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    width: 280px;
+    height: 100vh;
+    height: 100dvh;
+    scrollbar-width: thin;
+
+    @media (max-width: $breakpoint-widescreen) {
+        flex-shrink: 0.2;
+    }
+}
+
+#content {
+    display: flex;
+    gap: 1rem;
+
+    // 若设置的是 max-width，则内部 main 宽度为 fit-content，可能无法撑满
+    // 此时即使设置 flex-grow，也会影响 #sidebar 无法正确 shrink
+    width: $breakpoint-widescreen;
+    min-width: 0; // 解决父级 flexbox 设置 justify-content: center 时溢出左侧消失的问题
+
+    // 此处不建议给内容设置 padding
+    > main {
+        flex-grow: 1; // 使较小宽度的内容占满
+
+        // overflow: hidden; // 会使一部分元素吸顶失效
+
+        // 使内容正确计算宽度而不横向溢出
+        // 也可设置 width: 0 或者 contain: inline-size（兼容性不佳）
+        min-width: 0;
+    }
+}
+</style>
