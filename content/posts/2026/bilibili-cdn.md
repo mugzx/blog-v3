@@ -8,8 +8,8 @@ tags: [哔哩哔哩, CDN]
 references:
   - title: 写了个本版块老哥们应该会喜欢玩的脚本：自定义 B 站的 CDN（CCB） - V2EX
     link: https://www.v2ex.com/t/1112897
-  - title: the1812/Bilibili-Evolved
-    link: https://github.com/the1812/Bilibili-Evolved/issues/3234#issuecomment-1504764774
+  - title: 【Bilibili】关于屏蔽 PCDN 的指引 - 开发调优 - LINUX DO
+    link: https://linux.do/t/topic/642419
 ---
 
 ## 大厂CDN

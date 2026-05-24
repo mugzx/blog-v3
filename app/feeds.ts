@@ -140,7 +140,7 @@ export default [
 				feed: 'https://www.zanks.link/index.xml',
 				icon: getFavicon('www.zanks.link'),
 				avatar: getGithubAvatar('ZaNksC'),
-				archs: ['Hugo', '服务器'],
+				archs: ['Astro', '服务器'],
 				date: '2026-02-13',
 				comment: '设备体验分享，旅行经历，技术写作。',
 			},

@@ -2,7 +2,7 @@
 title: Ungoogled Chromium 简单体验及配置
 description: 介绍 Ungoogled Chromium 的优势，分享安装方法及常用实验功能设置，替代原版 Google Chrome，提升隐私与使用体验。
 date: 2025-10-24 00:11:45
-updated: 2025-12-09 03:58:22
+updated: 2026-05-24 03:58:22
 categories: [分享]
 tags: [Google Chrome, Ungoogled Chromium]
 references:
@@ -76,7 +76,9 @@ Ungoogled Chromium 的默认标签页仅显示快捷方式，修改新标签地�
 
 ### 书签同步
 
-使用 [BookmarkHub](https://github.com/dudor/BookmarkHub) 将你的书签上传至 GitHub Gist，随时同步数据。
+~~使用 [BookmarkHub](#) 将你的书签上传至 GitHub Gist，随时同步数据。~~
+
+建议使用 [floccus](https://github.com/floccusaddon/floccus)。
 
 ::folding
 #title
