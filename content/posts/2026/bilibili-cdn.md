@@ -10,6 +10,8 @@ references:
     link: https://www.v2ex.com/t/1112897
   - title: 【Bilibili】关于屏蔽 PCDN 的指引 - 开发调优 - LINUX DO
     link: https://linux.do/t/topic/642419
+  - title: B站卡顿优化-PC端禁用PCDN – 栋dong的个人站点
+    link: https://itdong.me/bilibili_pcdn
 ---
 
 ## 大厂CDN
@@ -39,12 +41,19 @@ link: https://rec.danmuji.org/dev/cdn-info
 
 ## PCDN
 
-域名符合正则表达式 `^.*\.mcdn\.bilivideo\.cn:\d{4}$`。是最被人诟病的视频CDN，利用用户的带宽搭建，质量差，为b站省流。建议使用相应的脚本或第三方客户端规避这种视频CDN的使用。
+最被人诟病，质量差，为b站省流。建议使用相应的脚本或第三方客户端规避这种视频 CDN 的使用。
 
-### 其它
+```
+||*pcdn*.biliapi.net^$important
+||mcdn.bilivideo.cn^$important
+||mcdn.bilivideo.com^$important
+||szbdyd.com^$important
+||cn-*.bilivideo.com^$important
+||edge.mountaintoys.cn^$important
+```
 
-其它的PCDN在国内已经很少遇到了，相对常见的还是上述这种。
+如果你有安装 uBlock Origin 这类去广告扩展，可以使用以上规则屏蔽。
 
 ## 总结
 
-简单来说，在CDN的选择中，应只考虑b站自建与大厂的CDN，其它的都不推荐，PCDN 更是能避就避。
+简单来说，在CDN的选择中，应只考虑b站自建与大厂的 CDN，其它的都不推荐，PCDN 更是能避就避。
