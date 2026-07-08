@@ -144,16 +144,6 @@ export default [
 				date: '2026-02-13',
 				comment: '设备体验分享，旅行经历，技术写作。',
 			},
-			{
-				author: 'XOBear',
-				desc: '一个废物Web and Misc手子',
-				link: 'https://xobear.cn/',
-				icon: 'https://lf-cdn.trae.com.cn/obj/trae-ai-image/page_image/7ab1a2b9c62c649a2df29a7b130fa4b0.jpeg',
-				avatar: 'https://lf-cdn.trae.com.cn/obj/trae-ai-image/page_image/7ab1a2b9c62c649a2df29a7b130fa4b0.jpeg',
-				archs: ['HTML', 'GitHub Pages'],
-				date: '2026-06-17',
-				comment: '网安学习中。',
-			},
 		],
 	},
 	/* ========从此处新增友链======== */
