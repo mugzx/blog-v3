@@ -86,6 +86,7 @@ const mainDomainIcons: Record<string, string> = {
 export const domainIcons: Record<string, string> = {
 	'developer.mozilla.org': 'simple-icons:mdnwebdocs',
 	'developers.cloudflare.com': 'simple-icons:cloudflare',
+	'h5.qzone.qq.com': 'simple-icons:qzone',
 	'mp.weixin.qq.com': 'ri:wechat-fill',
 }
 
