@@ -1,0 +1,180 @@
+{
+  "Blob": {
+    "type": "image",
+    "container": [
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/allo-crying.gif!style=2\">",
+        "text": "blob-crying"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob_bongos.gif!style=2\">",
+        "text": "blob_bongos"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/allo-happy.gif!style=2\">",
+        "text": "blob-happy"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob_hearteyes.avif!style=1\">",
+        "text": "blob-hearteyes"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob_wait_what.avif!style=1\">",
+        "text": "blob-wait-what"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/allo-tongue.gif!style=2\">",
+        "text": "blob-tongue"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/party-sunglasses-blob.gif!style=2\">",
+        "text": "blob-party-sunglasses"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob_excited.gif!style=2\">",
+        "text": "blob-excited"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob-grin.gif!style=2\">",
+        "text": "blob-grin"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob-heart.avif!style=1\">",
+        "text": "blob-heart"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob_lul.avif!style=1\">",
+        "text": "blob-lul"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob_rainbow.avif!style=1\">",
+        "text": "blob-rainbow"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob_smile_sweat2.avif!style=1\">",
+        "text": "blob-smile-sweat"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob-wave.gif!style=2\">",
+        "text": "blob-wave"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob-angel.gif!style=2\">",
+        "text": "blob-angel"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob-cool.gif!style=2\">",
+        "text": "blob-cool"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/bongo_blob.gif!style=2\">",
+        "text": "blob-bongo"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob-devil.gif!style=2\">",
+        "text": "blob-devil"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob-mindblown.avif!style=1\">",
+        "text": "blob-mindblown"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/blob_ugh.avif!style=1\">",
+        "text": "blob-ugh"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/b4nzy_blob.avif!style=1\">",
+        "text": "blob-b4nzy"
+      }
+    ]
+  },
+  "Blobcat": {
+    "type": "image",
+    "container": [
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_adorable.avif!style=1\">",
+        "text": "meow_adorable"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_angel.avif!style=1\">",
+        "text": "meow_angel"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_astonished.avif!style=1\">",
+        "text": "meow_astonished"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_attentionreverse.avif!style=1\">",
+        "text": "meow_attentionreverse"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_attention.gif!style=2\">",
+        "text": "meow_attention"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_awauu.avif!style=1\">",
+        "text": "meow_awauu"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_baka.avif!style=1\">",
+        "text": "meow_baka"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_bread.avif!style=1\">",
+        "text": "meow_bread"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_catflip.avif!style=1\">",
+        "text": "meow_catflip"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_coffee.avif!style=1\">",
+        "text": "meow_coffee"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_comfy.avif!style=1\">",
+        "text": "meow_comfy"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_couple.avif!style=1\">",
+        "text": "meow_couple"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_cry.avif!style=1\">",
+        "text": "meow_cry"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_dead.avif!style=1\">",
+        "text": "meow_dead"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_disappointed.avif!style=1\">",
+        "text": "meow_disappointed"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_drool.gif!style=2\">",
+        "text": "meow_drool"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_eyespout.avif!style=1\">",
+        "text": "meow_eyespout"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_fearful.avif!style=1\">",
+        "text": "meow_fearful"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_flower.avif!style=1\">",
+        "text": "meow_flower"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_glowsticks.avif!style=1\">",
+        "text": "meow_glowsticks"
+      },
+      {
+        "icon": "<img src=\"https://mu-s4.s3.bitiful.net/emoji/meow_canada.avif!style=1\">",
+        "text": "meow_canada"
+      }
+    ]
+  }
+}

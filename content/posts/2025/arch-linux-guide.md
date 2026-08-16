@@ -87,7 +87,7 @@ caption: Arch Linux-chan
 
 ## 软件包
 
-有些包来自 `multilib` `archlinuxcn` 的源，记得提前添加上去。
+有些包来自 `multilib` `archlinuxcn` 的源，记得取消注释和提前添加上去。
 
 ### 透明代理
 
@@ -100,6 +100,10 @@ description: 我出于系统的安装便利，入手了一台小巧的路由器�
 link: /2026/cudy-tr3000
 ---
 ::
+
+### 杂项
+
+建议取消 `/etc/pacman.conf` 的 `Color` 和 `VerbosePkgLists` 注释，有更好的可读性。
 
 ## 硬件驱动
 
