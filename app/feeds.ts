@@ -144,6 +144,18 @@ export default [
 				date: '2026-02-13',
 				comment: '设备体验分享，旅行经历，技术写作。',
 			},
+			{
+				author: '卡卡罗特',
+				title: '敲代码的卡卡罗特',
+				desc: '灵魂和身体都要在路上',
+				link: 'https://blog.share888.top',
+				feed: 'https://blog.share888.top/rss.xml',
+				icon: getFavicon('blog.share888.top'),
+				avatar: getOicqAvatar('657083979', OicqAvatarSize.Size100),
+				archs: ['VitePress', 'Vercel'],
+				date: '2026-08-20',
+				comment: '全栈开发者，无论是项目作品和生活都很丰富。',
+			},
 		],
 	},
 	/* ========从此处新增友链======== */

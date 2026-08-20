@@ -53,7 +53,7 @@ Windows 与 Unix 换行符的风格不同，你可能还需要在 VS Code 等编
 最后可以用这两条 git 命令再检查一遍即可。
 
 ::alert
-提示 `Good "git" signature…` 即为验证成功。
+提示 `Good "git" signature...` 即为验证成功。
 ::
 
 ## GPG 签名
