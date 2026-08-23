@@ -1,6 +1,6 @@
 ---
 title: 用 Rclone+FFmpeg 代替臃肿的上传工具
-description: PicGO 和 PicList 虽然配置简单容易上手，但却是用 Electron 开发的，因此我并不怎么想用。
+description: PicGO 和 PicList 虽然配置简单容易上手，但却是用 Electron 开发的。我嫌弃臃肿因此并不怎么想用。
 date: 2026-05-06 17:02:31
 updated: 2026-05-06 17:02:31
 categories: [代码]
@@ -58,11 +58,11 @@ ffmpeg -i "$INPUT_FILE" -vf "crop=iw:iw/2" -c:v libaom-av1 -pix_fmt yuv420p "$OU
 # 检查转换是否成功
 if [ $? -eq 0 ]; then
     echo "转换成功!"
-    
+
     # 上传到云端（按年份分类）
     echo "正在上传到 rclone: ${RCLONE_REMOTE}/${YEAR}/"
     rclone copy "$OUTPUT_FILE" "${RCLONE_REMOTE}/${YEAR}/"
-    
+
     if [ $? -eq 0 ]; then
         echo "上传成功! 路径: ${RCLONE_REMOTE}/${YEAR}/${DATETIME}.avif"
     else

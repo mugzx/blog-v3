@@ -154,7 +154,7 @@ export default [
 				avatar: getOicqAvatar('657083979', OicqAvatarSize.Size100),
 				archs: ['VitePress', 'Vercel'],
 				date: '2026-08-20',
-				comment: '全栈开发者，无论是项目作品和生活都很丰富。',
+				comment: '全栈开发者，无论是项目作品还是生活都很丰富。',
 			},
 		],
 	},
