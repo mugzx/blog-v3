@@ -10,8 +10,10 @@ references:
     link: https://www.v2ex.com/t/1112897
   - title: 【Bilibili】关于屏蔽 PCDN 的指引 - 开发调优 - LINUX DO
     link: https://linux.do/t/topic/642419
+  - title: the1812/Bilibili-Evolved#3234
+    link: https://github.com/the1812/Bilibili-Evolved/issues/3234
   - title: B站卡顿优化-PC端禁用PCDN – 栋dong的个人站点
-    link: https://itdong.me/bilibili_pcdn
+    link: https://itdong.me/bilibili_pcdn/
 ---
 
 ## 大厂CDN
@@ -35,7 +37,7 @@ b站在国内自建的CDN特征可以大致理解为省份+城市的简称，再
 ---
 icon: https://rec.danmuji.org/favicon.svg
 title: CDN 信息 | 录播姬
-link: https://rec.danmuji.org/dev/cdn-info
+link: https://rec.danmuji.org/dev/cdn-info/
 ---
 ::
 
@@ -48,8 +50,9 @@ link: https://rec.danmuji.org/dev/cdn-info
 ||mcdn.bilivideo.cn^$important
 ||mcdn.bilivideo.com^$important
 ||szbdyd.com^$important
-||cn-*.bilivideo.com^$important
+#||cn-*.bilivideo.com^$important
 ||edge.mountaintoys.cn^$important
+||h2.smtcdns.net^$important
 ```
 
 如果你有安装 uBlock Origin 这类去广告扩展，可以使用以上规则屏蔽。

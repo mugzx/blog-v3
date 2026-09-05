@@ -7,7 +7,7 @@ categories: [分享]
 tags: [Google Chrome, Ungoogled Chromium]
 references:
   - title: 📋 ungoogled chromium 安装配置 - 布铃酱的点心铺
-    link: https://blyrin.cn/notes/ungoogled-chromium
+    link: https://blyrin.cn/notes/ungoogled-chromium/
   - title: 谷歌 Chrome 浏览器将允许用户关闭检测诈骗端侧 AI 模型
     link: https://www.ithome.com/0/914/184.htm
 ---

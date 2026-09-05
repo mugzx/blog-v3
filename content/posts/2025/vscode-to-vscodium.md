@@ -7,7 +7,7 @@ categories: [分享]
 tags: [vscode, vscodium, 开源]
 references:
   - title: 如何從 VSCode 搬遷到 VSCodium
-    link: https://xn--8z3a.net/%E5%A6%82%E4%BD%95%E5%BE%9E-vscode-%E6%90%AC%E9%81%B7%E5%88%B0-vscodium
+    link: https://xn--8z3a.net/%E5%A6%82%E4%BD%95%E5%BE%9E-vscode-%E6%90%AC%E9%81%B7%E5%88%B0-vscodium/
 ---
 
 ~~不知道微软出于什么原因要收集一个代码编辑器的数据。~~

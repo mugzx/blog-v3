@@ -9,7 +9,7 @@ references:
   - title: archlinux 简明指南
     link: https://arch.icekylin.online/guide/rookie/basic-install
   - title: SHORiNのArch Linux实践经历与指南
-    link: https://github.com/SHORiN-KiWATA/ShorinArchExperience-ArchlinuxGuide/wiki
+    link: https://github.com/SHORiN-KiWATA/Shorin-ArchLinux-Guide
 ---
 
 ::timeline
@@ -83,7 +83,7 @@ caption: Arch Linux-chan
 ---
 ::
 
-壁纸出自 [RealShovelKun](https://www.reddit.com/r/MoeMorphism/comments/umjhgw/oc_arch_linuxchan_by_myself)，我的 KDE Plasma 和 Niri 桌面环境目前都在用这个。
+壁纸出自 [RealShovelKun](https://www.reddit.com/r/MoeMorphism/comments/umjhgw/oc_arch_linuxchan_by_myself/)，我的 KDE Plasma 和 Niri 桌面环境目前都在用这个。
 
 ## 软件包
 

@@ -6,7 +6,7 @@ categories: [分享]
 tags: [转载, 星露谷物语, Bug, Linux]
 references:
   - title: 临时解决 Arch Linux 原生运行星露谷物语时由 glibc 导致的 Galaxy API 初始化错误 - Yamrc
-    link: https://yamr.cc/posts/err-smapi-galaxy-glibc-2-41
+    link: https://yamr.cc/posts/err-smapi-galaxy-glibc-2-41/
 ---
 
 ## 起因

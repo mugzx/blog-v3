@@ -9,7 +9,7 @@ const basicConfig = {
 		name: 'Mugzx',
 		avatar: 'https://www.mugzx.top/api/avatar.png',
 		email: 'me@mugzx.top',
-		homepage: 'https://www.mugzx.top',
+		homepage: 'https://www.mugzx.top/',
 	},
 	copyright: {
 		abbr: 'CC BY-NC-SA 4.0',
@@ -20,7 +20,7 @@ const basicConfig = {
 	language: 'zh-CN',
 	timeEstablished: '2025-01-24',
 	timeZone: 'Asia/Shanghai',
-	url: 'https://blog.mugzx.top',
+	url: 'https://blog.mugzx.top/',
 	defaultCategory: '未分类',
 }
 
@@ -76,13 +76,13 @@ const blogConfig = {
 		// 自己部署的 Umami 统计服务
 		{ 'src': 'https://umami.mugzx.top/script.js', 'data-website-id': '72edd2a1-7693-4358-a0ba-2ab921697144', 'defer': true },
 		// Twikoo 评论系统
-		{ src: 'https://s4.zstatic.net/npm/twikoo@1.7.15/dist/twikoo.min.js', defer: true },
+		{ src: 'https://s4.zstatic.net/npm/twikoo@1.7.20/dist/twikoo.min.js', defer: true },
 	],
 
 	/** 自己部署的 Twikoo 服务 */
 	twikoo: {
-		envId: 'https://twikoo.mugzx.top',
-		preload: 'https://twikoo.mugzx.top',
+		envId: 'https://twikoo.mugzx.top/',
+		preload: 'https://twikoo.mugzx.top/',
 	},
 }
 
