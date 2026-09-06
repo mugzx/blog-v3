@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { CSSProperties } from 'vue'
 import type { FeedEntry } from '~/types/feed'
+// eslint-disable-next-line unused-imports/no-unused-imports
 import { Temporal } from 'temporal-polyfill'
 
 const props = defineProps<FeedEntry>()
@@ -19,7 +20,7 @@ function getInspectStyle(src: string): CSSProperties {
 
 	if (src === getMainDomain(props.link))
 		color = 'transparent' // 来自源站
-	else if (src === 'webp.se')
+	else if (src === 'gstatic.cn' || src === 'webp.se')
 		color = 'yellow' // 来自API获取
 	else if (src === 'qlogo.cn')
 		color = 'lightblue' // 来自QQ头像
@@ -58,7 +59,7 @@ function getInspectStyle(src: string): CSSProperties {
 
 	<template #content>
 		<div class="site-content">
-			<NuxtImg class="site-icon" :src="icon" :alt="title" />
+			<NuxtImg class="site-icon" :src="icon" :alt="title" loading="lazy" />
 
 			<div class="site-info">
 				<h3 class="text-creative">
