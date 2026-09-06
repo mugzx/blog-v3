@@ -3,7 +3,7 @@
 	card
 	dim
 	title="公益推广"
-	bg-img="https://www.one-school.org/legacy/pic/indeximage/index_slogan.jpg"
+	bg-img=""
 	bg-aside
 >
 	<div class="title text-creative">
